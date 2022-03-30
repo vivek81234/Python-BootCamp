@@ -1,0 +1,10 @@
+#week2 question5
+unit=int(input("Enter unit:"))
+if unit<100:
+  print("no charge")
+elif unit>=100 and unit<200:
+  bill=(unit-100)*5
+  print(bill)
+else:
+  bill=500+(unit-200)*10
+  print(bill)
