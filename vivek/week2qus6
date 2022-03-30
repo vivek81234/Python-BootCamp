@@ -1,0 +1,6 @@
+#week2qus6
+number=int(input("Enter number"))
+if number%5==0 or number%5==5:
+  print("Hello")
+else:
+  print("Bye")
