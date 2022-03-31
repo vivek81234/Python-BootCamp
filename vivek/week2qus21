@@ -1,0 +1,11 @@
+service_years=int(input("enter time period my service in years:"))
+salary=int(input("Enter salary"))
+if service_years>10:
+  net_amount=int(salary+(salary*10/100))
+  print(net_amount)
+elif service_years>=6 and service_years<=10:
+  net_amount=int(salary+(salary*8/100))
+  print(net_amount)
+else:
+  net_amount=int(salary+(salary*5/100))
+  print(net_amount)
