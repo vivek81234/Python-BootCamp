@@ -1,0 +1,27 @@
+number=int(input("Enter number between 1 to 12:"))
+if number==1:
+  print("this month is january and number is days 31.")
+elif number==2:
+  print("This month is february and number of days 28.")
+elif number==3:
+  print("This month is march and number of days 31.")
+elif number==4:
+  print("This month is april and number of days 30.")
+elif number==5:
+  print("This month is may and number of days 31.")
+elif number==6:
+  print("This month is june and number of days 30.")
+elif number==7:
+  print("This month is july and number of days 31.")
+elif number==8:
+  print("This month is august and number of days 31.")
+elif number==9:
+  print("This month is september and number of days 30.")
+elif number==10:
+  print("This month is october and number of days 31.")
+elif number==11:
+  print("This month is november and number of days 30.")
+elif number==12:
+  print("This month is december and number of days 31.")
+else:
+  print("invalid number.")
