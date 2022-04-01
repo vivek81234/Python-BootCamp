@@ -1,0 +1,9 @@
+city_name=(input("Enter city name:"))
+if city_name=="delhi":
+  print("Red Fort")
+elif city_name=="agra":
+  print("Tajmahal")
+elif city_name=="jaipur":
+  print("Jal mahal")
+else:
+  print("could'nt found.")
