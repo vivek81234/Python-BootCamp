@@ -1,0 +1,10 @@
+bike_price=int(input("Enter cost price of bike:"))
+if bike_price>100000:
+  road_tax=int(bike_price*15/100)
+  print(road_tax)
+elif bike_price>50000 and bike_price<=100000:
+  road_tax=int(bike_price*10/100)
+  print(road_tax)
+else:
+  road_tax=int(bike_price*5/100)
+  print(road_tax)
